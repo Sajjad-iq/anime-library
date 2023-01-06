@@ -6,13 +6,18 @@
     background: none;
     text-align: start;
     font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 .search-result-card-component .result-img {
     border-radius: 15px;
     margin: 5px 10px;
+    height: 100%;
 }
 
 .search-result-card-component .result-label {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    width: 100%;
 }
