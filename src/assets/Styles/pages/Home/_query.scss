@@ -20,7 +20,7 @@
                 .label-description {
                     font-size: 1.8rem;
                     height: 75px;
-                    width: 600px;
+                    width: 100%;
                 }
 
                 .button-component {
@@ -81,12 +81,13 @@
 
                 .label-header {
                     font-size: 1.8rem;
+                    text-align: start;
                 }
 
                 .label-description {
-                    margin-top: 25px;
+                    margin-top: 10px;
                     font-size: 1.3rem;
-                    width: 500px;
+                    width: 100%;
                     height: 50px;
                 }
 
@@ -107,7 +108,9 @@
 
 
                         .genre-and-status-element {
-                            margin: 5px;
+                            margin: 0 20px 0 0;
+                            width: 30%;
+                            text-align: start;
 
                             .header {
                                 font-size: 1.4rem;
@@ -120,12 +123,58 @@
                             }
 
                             .result-wrapper {
-                                max-width: 300px;
                                 justify-content: flex-start;
 
                                 .small-container {
                                     font-size: 1rem;
-                                    align-self: flex-start;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @include LargeLaptop {
+        .home {
+            .anime-info-label {
+
+                .label {
+                    font-size: 2.1rem;
+                }
+
+                .label-header {
+                    font-size: 2.2rem;
+                }
+
+                .label-description {
+                    font-size: 1.5rem;
+                }
+
+                .button-component {
+                    padding: 15px;
+                    margin: 15px 0;
+                    font-size: 1.5rem;
+                }
+
+
+                .genre-and-status-component {
+                    .genre-and-status-wrapper {
+                        .genre-and-status-element {
+                            margin: 0 20px 0 0;
+
+                            .header {
+                                font-size: 1.8rem;
+                            }
+
+                            .p-name {
+                                font-size: 1.4rem;
+                            }
+
+                            .result-wrapper {
+                                .small-container {
+                                    font-size: 1.4rem;
                                 }
                             }
                         }

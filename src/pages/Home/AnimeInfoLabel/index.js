@@ -11,7 +11,6 @@ export const AnimeInfoLabel = () => {
     const [IsReadMoreActive, setIsReadMoreActive] = useState(true)
     const { HomePageData } = useSelector((state) => state.Data)
 
-    console.log("AnimeInfoLabel render")
 
     return (
         <article className='anime-info-label'>

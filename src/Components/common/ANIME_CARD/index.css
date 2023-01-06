@@ -9,3 +9,17 @@
     border-radius: 8px;
     width: 100%;
 }
+
+@media (min-width:1440px) {
+    .anime-card {
+        margin: 15px;
+        width: 200px;
+    }
+}
+
+@media (min-width:1920px) {
+    .anime-card {
+        margin: 15px;
+        width: 250px;
+    }
+}

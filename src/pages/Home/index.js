@@ -19,7 +19,7 @@ export const Home = React.memo(() => {
 
     return (
         <section className='home' >
-            {IsLoading === true ? <LoadingAnimation /> : <img src={HomePageData.image} alt='anime-label' className='anime-label-image' />}
+            {IsLoading === true ? <LoadingAnimation /> : <img loading='lazy' src={HomePageData.image} alt='anime-label' className='anime-label-image' />}
             <AnimeInfoLabel />
         </section>
     )
